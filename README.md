@@ -1,8 +1,12 @@
-# Note: This is old!
+# Heads up!
 
 This program was forked and modified back in 2021, and I have no means of really developing it further. However, it may be used in a future project that will involve video editing (psst)... Who knows?
 
-In the meantime, this repository is here for others to clone and download and make their own. The original description is preserved with broken links fixed.
+In the meantime, this repository is here for others to clone and download and make their own. The original description is preserved with broken links fixed. For what was improved in this fork over the original:
+- Quality-of-life CLI interaction improvements (instead of just a bunch of switches, there's a navigation wizard + improved live status)
+- More efficient storage usage during jumpcutting (after all video frames are extracted, necessary frames of videos are moved into another directory instead of copied)
+- Performance metrics visibility at the end of a jumpcut session; includes memory usage, CPU usage, and relevant data (mostly for diagnostics)
+- Other miscellaneous performance improvements that I don't quite remember of
 
 ---
 
